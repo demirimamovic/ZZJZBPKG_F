@@ -1,0 +1,468 @@
+/*  ----------------------------  */
+/*         BASIC SETUP            */
+/*  ----------------------------  */
+
+* {margin: 0; padding: 0;box-sizing: border-box;}
+html { background-color: #fdfdfd; color:#555; font-family: 'Roboto Slab', serif; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 16px; color: #171717; text-rendering: optimizeLegibility; }
+
+/*  ----------------------------  */
+/*     REUSABLE COMPONENTS        */
+/*  ----------------------------  */
+/*  ----------------------------  */
+/*           Headings             */
+/*  ----------------------------  */
+
+h1 { margin-top: 0; margin-bottom: 20px; color: #fff; font-size: 280%; font-weight: 300; letter-spacing: 1px; word-spacing: 4px;}
+h2 { margin-top: 0; margin-bottom: 20px; color: #000; font-size: 200%; font-weight: 300; letter-spacing: 1px; word-spacing: 4px;}
+h3 { padding: 20px 20px; margin-top: 0; margin-bottom: 20px; font-size: 160%; font-weight: 300; letter-spacing: 1px; word-spacing: 4px;}
+h4 { padding: 20px 20px; margin-top: 0; margin-bottom: 20px; color: #000; font-size: 140%; font-weight: 300; letter-spacing: 1px; word-spacing: 4px;}
+h5 { padding: 20px 20px; margin-top: 0; color: #1c1c1c; font-size: 120%; font-weight: 300; letter-spacing: 1px; word-spacing: 1px; line-height: 130%; font-weight: normal;}
+
+/*  ----------------------------  */
+/*          Paragraphs            */
+/*  ----------------------------  */
+
+.pg-1  { padding: 10px 20px; line-height: 145%; margin-bottom: 10px; font-size: 90%; font-weight: normal; }
+.pg-1-EU  { padding: 0px; padding-left: 20px; line-height: 145%; margin-bottom: 0px; font-size: 70%; font-weight: normal; }
+
+/*  ----------------------------  */
+/*         Section & Rows         */
+/*  ----------------------------  */
+
+.section { display: block; padding: 0px; margin: 0px; clear: both; }
+
+.row { max-width: auto; margin: 0 auto; }
+.row:before, .row:after { content:""; display:table; }
+.row:after { clear:both; }
+
+/*  ----------------------------  */
+/*               Box              */
+/*  ----------------------------  */
+
+.box { margin: 0; box-sizing: border-box; }
+
+.box-1, .box-2, .box-3, .box-4 { }
+
+.box75 { margin: 0; padding: 0; width: 75%; display: block; float:left; box-sizing: border-box; overflow:hidden; }
+
+.box50 { margin: 0; padding: 0; width: 50%; display: block; float:left; box-sizing: border-box; overflow:hidden; }
+
+.box25 { margin: 0; padding: 0; height: 500px; width: 25%; display: block; float:left; box-sizing: border-box; overflow:hidden; }
+.box25 img { margin: 0; width: 100%; height: auto; box-sizing: border-box; }
+
+.image_box{ margin: 0; overflow: hidden;}
+
+/*  ----------------------------  */
+/*             Arrows             */
+/*  ----------------------------  */
+
+.link-arrow { padding: 20px 20px; text-decoration: none; font-size: 90%; color: darkblue; font-weight: normal; vertical-align: middle; float: left;}
+
+a span { text-decoration: none; font-size: 100%; color:darkblue; font-weight: normal; vertical-align: middle; }
+a:hover span { padding-bottom: 1px; border-bottom: 1px solid #fff; }
+
+.arrow-div { margin: 0; display: inline-block; float: left; }
+.arrow-div i {  margin-left: 20px; font-size: 150%; vertical-align: middle; color: red; float: left;}
+.arrow-div  a { margin-top: -41px; margin-left: 25px; clear: both;}
+
+/*  ----------------------------  */
+/*           Buttons              */
+/*  ----------------------------  */
+
+.btn:link, .btn:visited { display: inline-block; padding: 10px; 30px; font-weight: 300; text-decoration: none; border-radius: 200px; transition: background-color 0.2s, border 0.2s, color 0.2s; }
+.btn-full:link, .btn-full:visited { background-color: #2980b9; border: 1px solid #2980b9; margin-right: 15px; }
+.btn-ghost:link, .btn-ghost:visited {border: 1px solid #2980b9; color: #2980b9; }
+.btn:hover,.btn:active {background-color: #236d9d;}
+.btn-full:hover, .btn-full:active {border: 1px solid #2980b9; color: #fff;}
+.btn-ghost:hover, .btn-ghost:active {border: 1px solid #2980b9; color: #fff;}
+
+/*  ----------------------------  */
+/*           HEADER               */
+/*  ----------------------------  */
+header {
+
+
+}
+.logo { height: 60px; width: auto; float: left; margin-top: 5px; margin-left: 20px; margin-bottom: 5px;}
+
+.header-title {
+    width: 400px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: left;
+}
+.header-tit-tit {margin: 5px 0px 0px 10px; font-size: 200%; font-weight: 500; color: #409ed8;
+}
+.header-tit-subtit {
+    margin: 2px 0px 0px 10px; 
+    font-size: 100%; 
+    color: #aaaaaa;
+}
+
+/*  ----------------------------  */
+/*        TOP NAVIGATION          */
+/*  ----------------------------  */
+
+.top-navigation { position: fixed; width: 100%; height: 100px; padding: 20px 0px 0px 20px; background: #fff; z-index: 4021}
+
+.top-navigation-bar img {
+    margin-right: 20px;
+}
+
+
+
+.main_navigation_banner span {color: #000;}
+
+
+/*  ----------------------------  */
+/*         Language BTN           */
+/*  ----------------------------  */
+
+.lang { margin-right: 30px; }
+.lang li { padding-top: 15px; margin-right: 10px; font-size: 80%; display: inline-block; float: right;}
+.lang  a:link, .lang  a:visited { padding: 5px 0; text-decoration: none; color: #1c1c1c; border-bottom: 4px solid transparent; transition: border-bottom 0.2s;}
+.lang  a:hover, .lang  a:active { border-bottom: 4px solid #236d9d; }
+
+/*  ----------------------------  */
+/*         Login Button           */
+/*  ----------------------------  */
+
+#login-btn { color:  #000; font-size: 75%; padding-top: 15px; float: right; display: inline-block; margin-right: 10px; background-color:#fff; text-decoration: none; border: none; cursor: pointer}
+
+
+.pg-s { color:  #6a6969; font-size: 85%; padding-top: 15px; float: right; display: inline-block; margin-right: 10px; background-color:#fff; text-decoration: none; border: none; }
+
+.login-ui { display: none; position: absolute; top: 50px; right: 0px; width: 150px; height: 200px; background: #fafafa; z-index: 11;}
+.login-ui li { text-decoration: none; list-style: none; margin-top: 0px;}
+
+.login-ui a { text-decoration: none; color: #000; font-size: 80%; margin: 10px;}
+
+.login-ui i { color: #236d9d; margin-right: 10px;}
+
+.login-profile { margin-top: 20px; margin-left: 4px}
+.login-login {margin-top: 10px;}
+.login-logout {margin-top: 40px; padding-top: 5px; padding-bottom: 5px;  border-top: 1px solid #2980b9; }
+
+
+/*  ----------------------------  */
+/*    Main navigation banner      */
+/*  ----------------------------  */
+
+.main_navigation_banner { margin-left: 0px;  float: left; list-style: none; padding-top: 15px;}
+.main_navigation_banner li { margin-left:35px; display: inline-block; }
+.main_navigation_banner li a:link, .main_navigation_banner li a:visited { color:#1c1c1c; font-size: 80%; font-weight: normal; text-decoration: none; padding: 5px 0; border-bottom: 4px solid transparent; transition: border-bottom 0.2s; }
+.main_navigation_banner li a:hover, .main_navigation_banner li a:active { border-bottom: 4px solid #236d9d; }
+
+/*  ----------------------------  */
+/*        OVERLAY MENU            */
+/*  ----------------------------  */
+
+.overlay { background-color: rgba(0,0,0, 0.9); height: 0%; width: 100%; position: fixed; z-index: 1; top: 50px; left: 0; overflow-y: hidden; transition: 0.2s; }
+.overlay-content { width: 100%; position: relative; top: 25%; text-align: center; margin-top: 30px;}
+
+.overlay .closebtn{ width: 460px; height: 20px; position: absolute; top: 400px; text-align: left; padding-left: 100px; }
+
+.fa.fa-angle-down { margin-left: 10px; }
+
+.fa.fa-angle-up { font-size: 150%; }
+
+/*  ----------------------------  */
+/*      DINAMIC NAVIGATION        */
+/*  ----------------------------  */
+
+.navigation_container{ width: auto; margin: 0px auto; border-top: 1px solid rgba(255, 255, 255, 0.95) }
+
+/*  ----------------------------  */
+/*    Left Dinamic Navigation     */
+/* ----------------------------   */
+
+.sub_nav-l { width: 33%; height: 500px; background: rgba(253, 253, 253, 0.95); margin-left: auto; padding-top: 40px; padding-left: 150px; float: left; }
+.sub_nav-l  ul li { padding: 10px 0 10px 0; list-style: none;}
+.sub_nav-l  a { color: #818181; font-size: 120%; font-weight: 300; text-decoration: none; }
+.sub_nav-l  a:link { color: #236d9d; font-size: 120%; font-weight: 300; text-decoration: none; }
+.sub_nav-l  a:visited { }
+.sub_nav-l  a:hover, .sub_nav-l  a:active, .sub_nav-l  a:focus { color: #236d9d; font-weight: normal; }
+.sub_nav-l li:hover { background: #fff; }
+
+.p-subnav{ font-weight: bold; font-size:90%; margin: 0; padding: 10px 0 10px 0;}
+
+/*  ----------------------------  */
+/*   Right Dinamic Navigation     */
+/* ----------------------------   */
+
+.sub_nav-r{ margin-left: auto; padding-top: 40px; padding-left: 20px; float: left; width: 67%; height: 500px; background: #fff;}
+.sub_nav-r ul li { list-style: none; padding: 6px 0px 6px 0px; color: #000; }
+.sub_nav-r ul li a{ font-size: 90%; text-decoration: none; color: #000; }
+.sub_nav-r ul li a:hover { border-bottom: 1px solid #797777;}
+
+.title-subnav { text-decoration: none; margin: 0; font-family: Roboto Slab; font-size: 240%; padding: 10px 0 2px 0; letter-spacing: 2px; color: #236d9d; border-bottom: 1px solid transparent; }
+.title-subnav:hover { border-bottom: 1px solid #236d9d;}
+
+.p-subnav-right{ margin: 0; font-weight: bold; font-size:90%; padding: 58px 0 10px 0;}
+
+.sub_nav-image { position: absolute; top: 150px; left: 900px; width: 300px; height: auto;}
+
+/*  ----------------------------  */
+/*         Social Header          */
+/* ----------------------------   */
+
+.social-header { position: absolute; right: 0px; top: 360px; width: 25%; background: #000;  }
+.social-header a{ padding: 5px 0 5px 10px; text-decoration: none; display: inline-block; float: left; padding-right: 30px; vertical-align: middle; font-size: 130%;}
+.social-header a:first-child { margin-top: 2px; font-size: 100%;}
+
+.sh-text {color: #fff;}
+.sh-t {color: #55acee;}
+.sh-f {color: #3b5998;}
+.sh-l {color: #007bb5;}
+.sh-i {color: #8a3ab9;}
+
+/*  ----------------------------  */
+/*           Search Bar           */
+/* ----------------------------   */
+
+.search_aldi { padding: 8px 15px; background: #fff; border: 0px solid #dbdbdb;}
+
+.search-f { width: 500px; margin: 12px auto; }
+
+.search-bar { font-size: 15px;}
+
+.btn-search {position: relative; padding: 6px 15px; left: 8px; border: 2px solid #207cca; background-color: #207cca; color: #fafafa;}
+.btn-search:hover { background-color: #1b6aad; color: #fff; }
+
+
+.search-bar i { background: none; border: none}
+
+.search-bar input { padding-top: 10px; padding-bottom: 10px;}
+
+.search-bar button { margin-left: -30px; background: none; border: none; }
+
+.search-bar .ion-ios-search {margin-top: 10px; font-size: 140%; background: none; border: none; text-decoration: none}
+
+/*  ----------------------------  */
+/*          MINI NAV              */
+/*  ----------------------------  */
+
+.responsive-menu-container { margin: 0; padding: 0; width: 360px; background: #fff; float: right; }
+.responsive-menu-container .row { margin-top: 40px; height: 40px;}
+.responsive-menu-container .row:hover { background: #2980b9; color: #fff;}
+
+.mobile-nav-icon {padding-top: 10px;padding-right: 8px;margin: 0;float: right;cursor: pointer; display: block;}
+
+.mobile-nav-icon i {font-size: 130%;color: #7b7b7b;}
+
+/*  ----------------------------  */
+/*    Mini nav funcionality       */
+/*  ----------------------------  */
+
+.expand {display: block !important; }
+
+.expand1 {display: none !important;}
+
+.responsive-menu{ display: none; height: auto; background: rgba(0, 0, 0, 0.29);   position: absolute; top: 0px; padding-top: 50px; margin: 0; width: 100%; z-index: 10; border-top: 1px solid #bcbbbb; font-size: 90%; }
+
+.box25-m1, .box25-m2, .box25-m3, .box25-m4 { margin: 0; padding: 0; margin-top: 10px; display: block; cursor: pointer; font-size: 110%; }
+
+.responsive-menu-container .row .box75 {list-style: none;width: 90%;}
+.responsive-menu-container .row .box75 li { margin-top: 10px; margin-bottom: 20px; margin-left: 20px; }
+.responsive-menu-container .row .box75 li a{ margin-top: 10px; list-style: none; text-decoration: none; color: #2e2e2e; font-weight: bold;}
+.responsive-menu-container .row .box75 li a:hover{ color: #fff;}
+
+.sub-menu{ margin: 0; display: block; width: 80%; list-style: none; text-decoration: none; }
+.sub-menu li{padding: 8px 0px 8px 0px;}
+.sub-menu a{margin-left: 40px; padding-bottom: 5px; color:#2e2e2e;text-decoration: none;}
+.sub-menu a:hover { border-bottom: 3px solid #236d9d; transition: 0.1s;}
+
+/*  ----------------------------  */
+/*           SECTIONS             */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*       SECTION 1 - NOW          */
+/*  ----------------------------  */
+
+.now {height: 800px; overflow:hidden;}
+.now img{min-width: 100%;}
+
+.main-text-box { position: absolute; width: 40%; top: 150px; left: 20px; }
+.main-text-box > .pg-1{ padding: 0; margin-bottom: 30px; color: #fff; font-size: 110%; }
+.main-text-box span { color: #fff; }
+.main-text-box .link-arrow { margin: 0; padding: 0;}
+.main-text-box .link-arrow > .fa-arrow-circle-right { font-size: 150%; vertical-align: middle; color: #fff; padding-right: 10px; }
+
+.content {position:relative; top: -800px; left: 100px; width: 30%; margin-top: 100px; margin-left: 200px;
+  margin-bottom: 100px; padding: 20px; background: rgba(35, 164, 175, 0.72);color: #f1f1f1;}
+.content a {text-decoration: none; color: white; font-weight: 500;}
+.
+
+/*  ----------------------------  */
+/*    SECTION 2 - TOP STORIES     */
+/*  ----------------------------  */
+
+.section-top_stories { max-width: auto; height: 500px; }
+
+.section-top_stories .box-1, .section-top_stories .box-3 { background: #fafafa;}
+
+.section-top_stories .box-2, .section-top_stories .box-4 { background: rgba(243, 242, 244, 0.87); }
+
+.section-top_stories span { color: darkblue;}
+.section-top_stories  .link-arrow:hover span{ padding-bottom: 1px; border-bottom: 1px solid darkblue; }
+
+/* ----------------------------   */
+/*          SECTION-3             */
+/* ---------EcoSystem----------   */
+
+.section-ecosystem { max-width: auto; height: 500px; }
+
+.section-ecosystem .box-1, .section-ecosystem  .box-3 { background-color: #236d9d; color: #fff; }
+
+.section-ecosystem  .box-2, .section-ecosystem  .box-4 { background-color: #1d5a81; color: #fff; }
+
+.section-ecosystem h5 { color: #fff; }
+.section-ecosystem span { color: #fff; }
+/* ----------------------------   */
+/*          SECTION-4             */
+/* ------Central Message-------   */
+
+.section-message { width: auto; height: 500px; display: block; clear: both; }
+
+.message-1 { font-family: Roboto Slab; font-size: 340%; font-weight: lighter; padding-top: 100px; padding-bottom: 30px; text-align: center; letter-spacing: 2px; }
+
+.message-2 { font-size: 120%; padding-top: 20px; letter-spacing: 2px; }
+
+.message-2, .message-3 { text-align: center; padding-bottom: 30px;}
+
+.message-3 a { font-size: 100%; font-weight: normal; padding-top: 30px; color: #236d9d; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid transparent;}
+.message-3 a:hover { padding-bottom: 10px; border-bottom: 1px solid #236d9d; }
+
+/* ----------------------------   */
+/*          SECTION-5             */
+/* --------services-box--------   */
+
+.services-box { width: auto; height: 500px; display: block; clear: both; background-color: #187c89; color: #fff; }
+
+.sec-3 h3{ padding-top: 80px; }
+
+.service { padding: 20px 20px; }
+.service i{ display: block; text-decoration: none; list-style: none; color: #fff; font-size: 280%; font-weight: lighter; }
+
+.title-1{ padding-bottom: 3px; text-decoration: none; list-style: none; color: #fff; font-size: 130%; border-bottom: 1px solid transparent; }
+
+.sub-tit-1 { display: block; padding-top: 7px; padding-bottom: 20px; text-decoration: none; list-style: none; color: #fff;font-size: 80%; }
+
+a.title-1:link, .title-1:visited {}
+a.title-1:hover, a.title-1:active { border-bottom: 1px solid #fff; }
+
+/* -----------------------------   */
+/*           SECTION 6             */
+/* ---------Slide Show----------   */
+
+.slideshow-container { margin: 100px; position: relative; margin: 20px 0 0 0; width: 100%; height: 500px; background: #fff; box-sizing: border-box;}
+
+.mySlides {display: none;}
+
+/*         Sub-containers          */
+/* -----------------------------   */
+
+.slide-container { margin: 0; padding: 0; width: 100%; height: auto; display: inline-block; }
+
+.subcontainer_left { margin: 0; float: left;}
+
+.subcontainer-right { margin: 0; float: left;}
+
+.slide-image { margin: 0; padding: 0; width: auto;}
+
+.slide-title { font-family: Roboto Slab; font-size: 240%; height: 150px; font-weight:normal; padding: 5px 5px 5px 80px; text-align: left; letter-spacing: 2px;}
+
+.slide-subtitle { font-size: 120%; font-weight:300; padding: 20px 20px 40px 80px; text-align: left; letter-spacing: 1px; }
+
+.slide-subtitle-up { font-family: Roboto Slab; font-size: 120%; font-weight: normal; padding: 10px 10px 10px 80px; text-align: left;}
+
+.slider-link { margin-left: 80px; padding: 5px 10px 5px 10px; background: #236d9d; color: #fff; text-decoration: none; position: relative;}
+
+/*        Slider control           */
+/* -----------------------------   */
+
+.prev, .next {cursor: pointer; position: absolute; top: 50%; width: auto; margin-top: -22px; margin-right: 0; padding: 16px; color: #817f7f; font-weight: bold; font-size: 25px; transition: 0.6s ease; border-radius: 0 2px 2px 0; }
+
+.next { right: 0; border-radius: 3px 0 0 3px; background: #cecece;}
+
+.prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); }
+
+.dot-style { height: 20px; width: 20%; margin-left: 80px; margin-top: -100px; position: bottom; text-align:left; }
+
+.dot { cursor:pointer; height: 10px; width: 10px; margin: 0 2px; background-color: #dedddd; border-radius: 50%; display: inline-block; transition: background-color 0.1s ease;}
+
+.active, .dot:hover { background-color: #1fe018; }
+.fade { -webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade; animation-duration: 1.5s; }
+
+@-webkit-keyframes fade { from {opacity: .4}  to {opacity: 1}}
+
+@keyframes fade { from {opacity: .4} to {opacity: 1}}
+
+/* ----------------------------   */
+/*          SECTION-7             */
+/* ---------Partners-----------   */
+
+.section-partners {margin: 0;height: 500px;background-color: #236d9d;color: #fff;clear: both;}
+
+.partners, .donors { height: 500px;}
+
+.section-partners  img{width: 80px;height: auto;padding-bottom: 5px;}
+
+.section-partners h3{}
+
+.outline >.title-1{padding-bottom: 3px;text-decoration: none;list-style: none;color: #fff;font-size: 100%;border-bottom: 1px solid transparent;}
+
+.outline >.sub-tit-1{font-size: 80%;padding-bottom: 15px;}
+
+.donors {margin: 0;padding: 20px 20px;background-color: #236d9d;}
+.donors i{display: block;text-decoration: none;list-style: none;color: #fff;font-size: 280%;font-weight: lighter;}
+
+.partners {margin: 0;padding: 20px 20px;background-color: #2677ab;}
+.partners i{display: block;text-decoration: none;list-style: none;color: #fff;font-size: 280%;font-weight: lighter;}
+
+.sub-tit-1 {display: block;padding-top: 7px;padding-bottom: 20px;text-decoration: none;list-style: none;color: #fff;font-size: 80%;}
+a.title-1:link,.title-1:visited {   }
+a.title-1:hover, a.title-1:active {border-bottom: 1px solid #fff;}
+
+/* ----------------------------   */
+/*          SECTION-8             */
+/* -----------Footer-----------   */
+
+.section_bottom {max-width: auto;height: 400px;background-color: #e2e2e2;font-size: 90%;clear: both;}
+
+.section_bottom .box25 { height: 400px; padding-top: 40px;}
+
+.bottom  {padding-left: 20px; }
+.bottom li {list-style: none;padding-bottom: 10px;}
+
+
+footer {width: 100%; height: 40px; margin: 0; padding: 0;  border-top: 1px solid #a3a2a2; background: #e2e2e2;}
+
+footer ul {background: #e2e2e2;}
+
+.footer-eu {background: #e2e2e2;display: block; padding-bottom: 20px}
+
+.bottom a {color:#000; text-decoration: none; padding-bottom: 5px;}
+.bottom a:hover {
+    border-bottom: 1px solid #236d9d;
+}
+
+
+footer ul li {width: 15%;padding-top: 10px; padding-left: 20px; padding-right: 20px; font-size: 90%; float: left; list-style: none;}
+
+footer ul li:hover {
+    font-weight: 400
+}
+
+footer a {color:#000; font-size: 90%; text-decoration: none; padding-bottom: 5px;}
+
+
+/* ----------------------------   */
+/*             END                */
+/* ----------------------------   */
+
+
+
+
