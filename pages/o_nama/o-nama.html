@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111541343-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-111541343-1');
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/snnx.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,500|Roboto:100,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/517eaa895f.js" crossorigin="anonymous"></script>
+    <title>Zavod za javno zdravstvo &#124; BPK Gorazde</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="top-navigation">
+                <div class="top-navigation-bar">
+                    <a class="mobile-nav-icon">
+                        <ion-icon name="menu"></ion-icon>
+                    </a>
+                    <button id="login-btn" name="login" class="btn-log" type="submit" value="username"><i class="fa fa-user-o" aria-hidden="true"></i></button>
+
+                    <img src="../../resources/image/grb_bpk_gorazde.jpg" alt="logo" class="logo">
+                    <div class="header-title">
+                        <p class="header-tit-tit">Zavod za javno zdravstvo</p>
+                        <p class="header-tit-subtit">Bosansko-podrinjskog kantona Goražde</p>
+                    </div>
+                </div>
+                <div class="login-ui">
+                    <div class="login-profile">
+                        <li><a href=""><i class="fa fa-user"></i> Profile</a></li>
+                    </div>
+                    <div class="login-login">
+                        <li><a href="#"><i class="fa fa-fw fa-power-off"></i> Log In</a></li>
+                    </div>
+                    <div class="login-logout">
+                        <li><a href="includes/logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a></li>
+                    </div>
+                </div>
+                <div class="full_nav">
+                    <div class="row">
+                        <ul class="main_navigation_banner" role="banner">
+                            <li><a href="#"><span onclick="openNav_1()">Zdravstvene oblasti</span></a></li>
+                            <li><a href="#"><span onclick="openNav_2()">Vijesti</span></a></li>
+                            <li><a href="#"><span onclick="openNav_3()">U fokusu</span></a></li>
+                            <li><a href=".."><span onclick="openNav_4()">Podaci</span></a></li>
+                            <li><a href="o-nama.html"><span>O nama</span></a></li>
+                        </ul>
+                        <div id="myNav_1" class="overlay">
+                            <div class="navigation_container">
+                                <div class="sub_nav-l">
+                                    <div class="search-bar">
+                                        <div>
+                                            <p class="p-subnav">Pretraži ZZJZ</p>
+                                        </div>
+                                        <form action="pages/zzjz_search.php" class="search-f" method="post"><input class="#" type="text" name="search" placeholder="Unesi pojam..."><span><button name="submit" type="submit"> <i class="ion-ios-search"></i></button></span></form>
+                                    </div>
+                                    <ul class="nav_con_left">
+                                        <div>
+                                            <p class="p-subnav">Saznaj više</p>
+                                        </div>
+                                        <li><a href="../zdravstvene-oblasti/epidemiologija.html" id="nc_l-1-1">Epidemiologija</a></li>
+                                        <li><a href="../zdravstvene-oblasti/mikrobiologija.html" id="nc_l-1-2">Mikrobiologija</a></li>
+                                        <li><a href="../zdravstvene-oblasti/zdravstvena-okolina.html" id="nc_l-1-3">Životna sredina</a></li>
+                                        <li><a href="../zdravstvene-oblasti/promocija-zdravlja.html" id="nc_l-1-4">Socijalna medicina</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub_nav-r">
+                                    <div id="nc_r-1-1">
+                                        <ul>
+                                            <div><a class="title-subnav" href="../zdravstvene-oblasti/epidemiologija.html">Epidemiologija</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Kratak info</p>
+                                            </div>
+                                            <p class="pg-meni-01">Mi pratimo, proučavamo, sprečavamo i suzbijamo bolesti kod ljudi odnosno tražimo odgovore na pitanja učestalosti i rasprostranjenosti bolesti, prirodnim zakonitostima njihovog nastanka (etiologija), održavanja ili iščezavanja iz ljudske populacije, a sve u cilju planskog utjecanja da se smanji učestalost bolesti ili da se neke bolesti čak posve iskorijene mjerama sprečavanja prije njihove pojave i suzbijanja, tj. direktne intervencije, ako su se već pojavile, da bi oboljelih bilo što manje.</p>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-1-2">
+                                        <ul>
+                                            <div><a class="title-subnav" href="../zdravstvene-oblasti/mikrobiologija.html">Mikrobiologija</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Kratak info</p>
+                                            </div>
+                                            <p class="pg-meni-01">
+                                                Mi vršimo uzorkovanje materijala za potrebe mikrobiloških i fizičko-hemijskih analiza na terenu i vrši mikrobiološke analize hrane, vode, vazduha, briseva predmeta opšte upotrebe i predmeta opšte upotrebe.</p>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-1-3">
+                                        <ul>
+                                            <div><a class="title-subnav" href="../zdravstvene-oblasti/zdravstvena-okolina.html">Životna sredina</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Kratak info</p>
+                                            </div>
+                                            <p class="pg-meni-01">Mi pratmo, analiziramo i ocjenjujemo uticaj okoline i hrane na zdravstveno stanje stanovništva na području kantona, te predlažemo mjere za unapređenje stanja i zaštite zdravlja ljudi i životne sredine, predlažemo i provodimo aktivnosti na unapređenju sistema zdravstvene bezbjednosti proizvodnje i prometa životnih namirnica, vode i predmeta opšte upotrebe u cilju smanjenja rizika od obolijevanja i drugih štetnih posljedica po zdravlje, te pripremamo, planiramo i realizujemo programe za praćenje stanja i očuvanja životne sredine.</p>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-1-4">
+                                        <ul>
+                                            <div><a class="title-subnav" href="../zdravstvene-oblasti/promocija-zdravlja.html">Socijalna medicina</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Kratak info</p>
+                                            </div>
+                                            <p class="pg-meni-01">Mi istražujemo međuzavisnost zdravstvenoga stanja stanovništva i socijalno-ekonomskih prilika u našoj zajednici. Proučavamo sistav i organizaciju zdravstvene zaštite te mogućnosti primjene suvremenih postignuća na taj sistem. Takođe se bavimo pronalaženjem socijalnih mjera za unaprjeđenje zdravlja stanovništva u kantonu.</p>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav_1()"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myNav_2" class="overlay">
+                            <div class="navigation_container">
+                                <div class="sub_nav-l">
+                                    <ul class="nav_con_left">
+                                        <div>
+                                            <p class="p-subnav">Saznaj više</p>
+                                        </div>
+                                        <li><a href="#" id="nc_l-2-1">Važne vijesti</a></li>
+                                        <li><a href="../news/newsroom.html" id="nc_l-2-2">Sve vijesti</a></li>
+                                        <li><a href="#" id="nc_l-2-3">Oglasi</a></li>
+                                        <li><a href="#" id="nc_l-2-4">Javne nabavke</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub_nav-r">
+                                    <div id="nc_r-2-1">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Brzi link</p>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-2-2">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div>
+                                                <ul>
+                                                    <div><a class="title-subnav" href="#"></a></div>
+                                                    <div>
+                                                        <p class="p-subnav-right">Brzi link</p>
+                                                    </div>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-2-3">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Brzi link</p>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-2-4">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Brzi link</p>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav_2()"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myNav_3" class="overlay">
+                            <div class="navigation_container">
+                                <div class="sub_nav-l">
+                                    <ul class="nav_con_left">
+                                        <div>
+                                            <p class="p-subnav">Saznaj više</p>
+                                        </div>
+                                        <li><a href="../covid-19.html" id="nc_l-3-1">COVID-19</a></li>
+                                        <li><a href="#" id="nc_l-3-2"></a></li>
+                                        <li><a href="#" id="nc_l-3-3"></a></li>
+                                        <li><a href="" id="nc_l-3-4"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub_nav-r">
+                                    <div id="nc_r-3-1">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#">COVID-19</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Ukratko</p>
+                                                <p class="pg-meni-01">VAŽNO: </p>
+                                                <p class="pg-meni-01">Trenutno je proglašena pandemija bolesti Koronavirusa (COVID-19). Bolest korona virusa (COVID-19) je infektivna bolest koju proizvodi novootkriveni koronavirus.</p>
+                                                <p class="pg-meni-01">Molimo poštujte preporuke nadležnih zdravstvenih vlasti.</p>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                        <div id="nc_r-3-2">
+                                            <ul>
+                                                <div><a class="title-subnav" href="#"></a></div>
+                                                <div>
+                                                    <p class="p-subnav-right">Brzi link</p>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <div id="nc_r-3-3">
+                                            <ul>
+                                                <div><a class="title-subnav" href="#"></a></div>
+                                                <div>
+                                                    <p class="p-subnav-right">Brzi link</p>
+                                                </div>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                        </div>
+                                        <div id="nc_r-3-4">
+                                            <ul>
+                                                <div><a class="title-subnav" href="#"></a></div>
+                                                <div>
+                                                    <p class="p-subnav-right">Brzi link</p>
+                                                </div>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav_3()"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-nav">
+                    <div class="responsive-menu">
+                        <div class="responsive-menu-container">
+                            <div>
+                                <div class="row">
+                                    <div class="box75">
+                                        <li><a href="#link">Zdravstvene oblasti</a></li>
+                                    </div>
+                                    <div class="box25-m1"><i class="ion-minus-round"></i></div>
+                                </div>
+                                <div class="row-m1">
+                                    <ul class="sub-menu">
+                                        <li><a href="../zdravstvene-oblasti/epidemiologija.html">Epidemiologija</a></li>
+                                        <li><a href="../zdravstvene-oblasti/mikrobiologija.html">Mikrobiologija</a></li>
+                                        <li><a href="../zdravstvene-oblasti/zdravstvena-okolina.html">Životna sredina</a></li>
+                                        <li><a href="../zdravstvene-oblasti/promocija-zdravlja.html">Socijalna medicina</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="box75">
+                                        <li><a href="#link">Vijesti</a></li>
+                                    </div>
+                                    <div class="box25-m2"><i class="ion-minus-round"></i></div>
+                                </div>
+                                <div class="row-m2">
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Važne vijesti</a></li>
+                                        <li><a href="../news/newsroom.html">Sve vijesti</a></li>
+                                        <li><a href="#">Oglasi</a></li>
+                                        <li><a href="#">Javne nabavke</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="box75">
+                                        <li><a href="#link">U fokusu</a></li>
+                                    </div>
+                                    <div class="box25-m3"><i class="ion-minus-round"></i></div>
+                                </div>
+                                <div class="row-m3">
+                                    <ul class="sub-menu">
+                                        <li><a href="../covid-19.html">COVID-19</a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="box75">
+                                    <li><a href="#">Podaci</a></li>
+                                </div>
+                                <div class="box25-4"></div>
+                            </div>
+                            <div class="row">
+                                <div class="box75">
+                                    <li><a href="../o_nama/o-nama.html">O nama</a></li>
+                                </div>
+                                <div class="box25-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </nav>
+    </header>
+    <section class="onama-top">
+        <div class="row">
+            <div class="box100">
+                <div class=""><img src="../o_nama/o-nama-cover-1.jpg" alt="cover"></div>
+            </div>
+            <div class="onama-topbox">
+                <h1>Mi spriječavamo <span>bolesti</span></h1>
+                <p>Zavod za javno zdravstvo Bosansko-podrinjskog kantona Goražde</p>
+            </div>
+        </div>
+    </section>
+    <section class="onama-ukratko">
+        <div class="row">
+            <div class="box100 ukratko">
+                <h3>NAŠA MISIJA</h3>
+                <hr>
+                <p>Javna ustanova Zavod za javno zdravstvo Bosansko-podrinjskog kantona Goražde u skladu sa Zakonom o zdravstvenoj zaštiti F BiH na području kantona obavlja djelatnosti epidemiologije zaraznih bolesti i hroničnih masovnih nezaraznih bolesti, javnog zdravstva, promociju zdravlja i prevencije bolesti, zdravstvene ekologije, mikrobiologije. Da bi se postigla svrha javnog zdravstva koja je usmjerena ka očuvanju i unapređenju zdravlja populacije Zavod je posvećen razvoju saranje, koordinacije i partnerstva između zdravstvenih ustanova, nadležnog kantonalnog ministarstva zdravstva i drugih ključnih donosioca odluka na entitetskom, kantonalnom i lokalnom nivou.</p>
+
+            </div>
+        </div>
+    </section>
+    <section class="healt-sys">
+        <div class="healt-sys-containter">
+            <div class="healt-sys-containter-box">
+                <div class="healt-sys-containter-box-wrapper">
+                    <h1>1</h1>
+                    <h4>javnozdravstveni institut</h4>
+                </div>
+                <div class="vl"></div>
+                <div class="healt-sys-containter-box-wrapper">
+                    <h1>18</h1>
+                    <h4>Ambulanti porodične medicine</h4>
+                    <h5>u okviru tri ustanove primarne zdravstvene zaštite u Goraždu, Ustikolini i Prači</h5>
+                </div>
+                <div class="vl"></div>
+                <div class="healt-sys-containter-box-wrapper">
+
+                    <h1>82</h1>
+                    <h4>kreveta</h4>
+                    <h5>u JU Kantonalna Bolnica Goražde</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="act-desc">
+        <div class="act-desc-containter">
+            <img src="o-nama-cover-2.jpg" alt="">
+            <h1>Šta su naši zadaci</h1>
+            <div class="act-desc-containter-box">
+                <div class="act-desc-containter-box-wrapper">
+                    <h4>Planiramo</h4>
+                    <ul>
+                        <li>Predlažemo programe zdravstvene zaštite</li>
+                        <li>Provodimo zdravstveno-statistička istraživanja u cilju praćenja, procjene i analize zdravstvenog stanja stanovništva, kao i organizacije i rada zdravstvenih ustanova na području kantona</li>
+                        <li>Pratimo, ocjenjujemo i analiziramo zdravstveno stanje stanovništva, kao i organizacije i rad zdravstvenih ustanova na području kantona</li>
+                        <li>Planiramo, organizujemo i provodimo aktivnosti promocije zdravlja i zdravstvenog odgoja stanovništva</li>
+                        <li>Sarađujemo sa drugim zdravstvenim ustanovama na području kantona, kao i sa nadležnim organima lokalne samouprave i drugim ustanovama i organizacijama od značaja za unapređenje javnog zdravlja</li>
+                    </ul>
+                </div>
+                <div class="act-desc-containter-box-wrapper">
+
+                    <h4>Brinemo</h4>
+                    <ul>
+                        <li>Učestvujemo u planiranju, predlaganju i provođenju mjera za sprečavanje, rano otkrivanje i suzbijanje hroničnih masovnih bolesti, uključujući i bolesti ovisnosti</li>
+                        <li>Pratimo, analiziramo i ocjenjujemmo uticaj okoline i hrane na zdravstveno stanje stanovništva na području kantona, te predlažemo mjere za unapređenje stanja u ovim oblastima</li>
+                        <li>Provodimo preventivno odgojne mjere zdravstvene zaštite u osnovnim i srednjim školama, kao i fakultetima za područje kantona</li>
+                        <li>Koordiniramo, usklađujemo i stručno povezujemo rad zdravstvenih ustanova na području kantona</li>
+                    </ul>
+                </div>
+                <div class="act-desc-containter-box-wrapper">
+                    <h4>Spriječavamo</h4>
+                    <ul>
+                        <li>Kontinuirano provodimo mjere higijensko-epidemiološke zaštite i nadzora sa epidemiološkom analizom stanja na području kantona i provodimo protivepidemiološke mjere, te nadziremoo provođenje obaveznih imunizacija</li>
+                        <li>Kbavljamo raspodjelu obaveznih vakcina zdravstvenim ustanovama</li>
+                        <li>Nadziremo provedbu mjera dezinfekcije, dezinsekcije i deratizacije, te provodimo preventivne i protivepidemijske postupke dezinfekcije, dezinsekcije i deratizacije za područje kantona</li>
+                        <li>Obavljamo sanitarnu hemijsku i sanitarnu mikrobiološku dijagnostičku djelatnost</li>
+                        <li>Učestvuje u izradi i provedbi pojedinih programa zdravstvene zaštite u vanrednim prilikama</li>
+                        <li>Stručno-metodološki nadzire i usmjerava rad higijensko-epidemioloških službi na području kantona</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-desc">
+        <div class="sec-desc-containter">
+            <div class="sec-desc-containter-box">
+                <div class="sec-desc-containter-box-wrapper">
+                    <div class="img-bx1">
+                        <img src="../zdravstvene-oblasti/epidemiologija.jpg" alt="">
+                    </div>
+                    <h4>Epidemiologija</h4>
+                    <p>
+                        Mi proučavamo distribuciju i determinante stanja i događaja povezanim sa zdravljem u specifičnim polulacijama i primjenu tih proučavanja u rješavanju zdravstvenih problema.
+                    </p>
+                    <a href="../zdravstvene-oblasti/epidemiologija.html" class="li-o1">Saznaj više</a>
+                </div>
+                <div class="sec-desc-containter-box-wrapper">
+                    <div class="img-bx1">
+                        <img src="../zdravstvene-oblasti/mikrobiologija.jpeg" alt="">
+                    </div>
+                    <h4>Mikrobiologija javnog zdravlja</h4>
+                    <p>
+                        Naša specijalnost je mikrobilogija koja povezuje polja mikrobiologije ljudi, životinja, hrane, vode i okoliša, sa fokusom na ljudsko zdravlje i bolesti.
+                    </p>
+                    <a href="../zdravstvene-oblasti/mikrobiologija.html" class="li-o1">Saznaj više</a>
+
+                </div>
+                <div class="sec-desc-containter-box-wrapper">
+                    <div class="img-bx1">
+                        <img src="../zdravstvene-oblasti/zivotna-sredina.jpg" alt="">
+                    </div>
+                    <h4>Zdrava životna sredina</h4>
+                    <p>
+                        Mi spriječavamo povrede i bolesti tkroz identificiranje i procjenu okolišnih izvora bolesti i limitiranje izloženosti štetnih fizičkih. hemijskih, i bioloških agenata u vazduhu, zemlji i hrani koji mogu imati štetni uticaj na ljudsko zdravlje.
+                    </p>
+                    <a href="../zdravstvene-oblasti/zdravstvena-okolina.html" class="li-o1">Saznaj više</a>
+                </div>
+                <div class="sec-desc-containter-box-wrapper">
+                    <div class="img-bx1">
+                        <img src="../zdravstvene-oblasti/promocija-zdravlja.jpg" alt="">
+                    </div>
+                    <h4>Promocija zdravlja</h4>
+                    <p>
+                        Mi se zalažemo za širok spektar socijalnih i okolišnih intervencija koje su dizajnirane da doprinesu i zaštite inidividualno zdravlje ljjudi i kvalitet života kroz adresiranje i spriječavanje uzroka lošeg zdravlja.
+                    </p>
+                    <a href="../zdravstvene-oblasti/promocija-zdravlja.html" class="li-o1">Saznaj više</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-bottom">
+        <div class="about-bottom-container">
+            <h3>Mi smo tu zbog vas</h3>
+            <hr>
+            <div class="about-bottom-container-box">
+
+                <div class="about-bottom-containter-box-wrapper">
+                    <div class="box25">
+                        <img src="o-nama-bottom.jpeg" alt="">
+                    </div>
+                    <div class="box25">
+                        <h4>Vijesti</h4>
+
+                        <a href="../news/newsroom.html">Saznaj koje su najnovije vijesti</a>
+                    </div>
+                    <div class="box25">
+                        <h4>Kontaktirajte nas</h4>
+                        <a href=""><i class="fa fa-phone" aria-hidden="true"></i>038 220 060</a>
+                        <a href=""><i class="far fa-envelope" aria-hidden="true"></i>Posalji email</a>
+                    </div>
+                    <div class="box25">
+                        <h4>Postavite pitanje</h4>
+                        <a href="">Digitalni asistent</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-title">
+                <h5>Zavod za javno zdravstvo</h5>
+                <p>Bosansko-podrinjskog kantona Goražde</p>
+                <div class="adresa">
+                    <p>Višegradska bb</p>
+                    <p>73000 Goražde</p>
+                    <p>Bosna i Hercegovina</p>
+                </div>
+                <div class="terms">
+                    <ul>
+                        <li><a href="#">Uslovi korištenja</a></li>
+                        <li><a href="#">Izjava o privatnosti</a></li>
+                        <li><a href="#">Uslovi korištenja kolačića</a></li>
+                    </ul>
+                </div>
+                <div class="social-header">
+                    <div class="social-header-title"><a class="sh-text" href="#">Prati nas</a></div>
+                    <a class="sh-t" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a class="sh-l" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a class="sh-f" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="sh-i" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p class="pg-1-EU">
+                Zavod za Javno zdravstvo je javna ustanova osnovana od strane Bosansko-podrinjskog kantona Goražde za obavljanje javnozdravstvene djelatnosti u skladu sa Zakonom o zdravstvenoj zaštiti Federacije Bosne i Hercegovine
+            </p>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../resources/js/script.js"></script>
+
+</body>
+
+</html>

@@ -81,6 +81,7 @@ a:hover span { padding-bottom: 1px; }
 /*           HEADER               */
 /*  ----------------------------  */
 
+header {height: 100px; clear: both;}
 .logo { height: 60px; width: auto; float: left; margin-top: 5px; margin-left: 20px; margin-bottom: 5px;}
 
 .header-title {width: 400px; margin: 0; padding: 0; display: inline; float: left;}
@@ -230,7 +231,7 @@ a:hover span { padding-bottom: 1px; }
 .box25-m1, .box25-m2, .box25-m3, .box25-m4 { margin: 0; padding: 0; margin-top: 10px; display: block; cursor: pointer; font-size: 110%; }
 
 .responsive-menu-container .row .box75 {list-style: none;width: 90%;}
-.responsive-menu-container .row .box75 li { margin-top: 10px; margin-bottom: 20px; margin-left: 20px; }
+.responsive-menu-container .row .box75 li { margin-top: 20px; margin-bottom: 20px; margin-left: 20px; }
 .responsive-menu-container .row .box75 li a{ margin-top: 10px; list-style: none; text-decoration: none; color: #2e2e2e; font-weight: bold;}
 .responsive-menu-container .row .box75 li a:hover{ color: #fff;}
 
@@ -240,39 +241,25 @@ a:hover span { padding-bottom: 1px; }
 .sub-menu a:hover { border-bottom: 3px solid #236d9d; transition: 0.1s;}
 
 /*  ----------------------------  */
-/*           SECTIONS             */
+/*  INDEX                         */
 /*  ----------------------------  */
 
 /*  ----------------------------  */
-/*       SECTION 1 NOW            */
+/*  INDEX S1 NOW                  */
 /*  ----------------------------  */
 
-/* style front section */
-.header-video {height: 800px; overflow: hidden;}
-#myVideo {min-width: 100%;}
+.content-covid-19 {position:relative; top: -800px; left: 100px; width: 30%;height: 200px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; padding: 20px; background: rgba(35, 164, 175, 0.72);color: #f1f1f1;}
+.content a {text-decoration: none; }
+
+.content-covid-19 span {color: aliceblue;font-weight: 400;}
+.content-covid-19 span:hover {color: #272829; padding-right: 20px;} 
+.content-covid-19 i {padding-top: 7px; color: #d4d4d4; font-size: 80%;}
 
 .now {height: 800px; overflow:hidden;}
 .now img{min-width: 100%;}
 
-.content {position:relative; top: -800px; left: 100px; width: 30%;height: 200px; margin-top: 100px; margin-left: 200px; margin-bottom: 100px; padding: 20px; color: #f1f1f1; line-height: 120%;}
-.content a {text-decoration: none; }
-.content span {
-   color: aliceblue;
-    font-weight: 400;
-}
-.content span:hover {
-    color: #fff;
-    padding-right: 20px;
-    font-weight: 500;
-} 
-.content i {
-    padding-top: 7px;
-    color: #d4d4d4;
-    font-size: 80%;
-}
-
 /*  ----------------------------  */
-/*    SECTION 2  TOP STORIES     */
+/*  INDEX S2 TOP STORIES          */
 /*  ----------------------------  */
 
 .section-top_stories { max-width: auto; height: 500px; }
@@ -286,7 +273,7 @@ a:hover span { padding-bottom: 1px; }
 .section-top_stories  .link-arrow:hover span{ padding-bottom: 1px; border-bottom: 1px solid darkblue; }
 
 /*  ----------------------------  */
-/*       SECTION 3 URGENTNO       */
+/*  INDEX S3 URGENTNO             */
 /*  ----------------------------  */
 
 .section-urgentno { width: 100%; height: 680px; background-color:#fff;}
@@ -299,7 +286,7 @@ a:hover span { padding-bottom: 1px; }
 .section-urgentno img {width: 100%; height: auto;}
 
 /*  ----------------------------  */
-/*        SECTION 4 VIJESTI       */
+/*  INDEX S4 VIJESTI              */
 /*  ----------------------------  */
 
 .section-vijest{ max-width: auto; height: 600px; background-color:#236d9d;clear: both;}
@@ -314,31 +301,26 @@ hr {margin-bottom: 40px;}
 .section-vijesti img {width: 100%; height: auto;}
 
 .s-vijesti {width: 90%; height: 150px; background-color: #fff; margin-bottom: 20px;}
-.s-vijesti-title h5:hover, .s-vijesti-title p:hover  {
-    color: #2980b9;
-}
+.s-vijesti-title h5:hover, .s-vijesti-title p:hover  {color: #2980b9;}
 .s-vijesti img {display: inline; float: left; width: 15%; margin-right: 20px;}
 .s-vijesti-title {width: 75%; float: left; display: block;}
 .s-vijesti-title h5{margin: 0px 10px 10px 0px;padding: 0px;}
 .s-vijesti-title p{margin-bottom: 10px;font-size: 90%;line-height: 145%;color: #1c1c1c;}
 
 /*  ----------------------------  */
-/*    SECTION 5 SERVICE BOX       */
+/*  INDEX S5 SERVICE BOX          */
 /*  ----------------------------  */
 
 .services-box { width: auto; height: 500px; padding: 20px; display: block; clear: both; background-color: #409ed8; color: #fff; }
 
 .services-box h3{ font-weight: 500; padding-top: 50px; text-align: center; }
-
-.services-box p {
-    text-align: center;
-}
+.services-box p {text-align: center;}
 
 .service { padding: 20px 20px; }
 .service i{ display: block; text-decoration: none; list-style: none; color: #fff; font-size: 280%; font-weight: lighter; }
 
 /*  ----------------------------  */
-/*        SECTION 6 FOOTER        */
+/*  INDEX S6 FOOTER               */
 /*  ----------------------------  */
 
 footer {width: 100%;  margin: 0; padding: 0;  border-top: 1px solid #a3a2a2; background: #2980b9;}
@@ -348,25 +330,18 @@ footer ul {background: #e2e2e2;}
 .footer-top {height: 220px;  display: block; padding-top: 50px; clear: both}
 .footer-title {margin-left: 250px; margin-right: 250px; color: aliceblue;}
 .footer-title h5 {font-size: 150%; color: aliceblue; font-weight: 500; padding: 0px 0px 2px 0px;}
-.footer-title p {font-size: 90%; margin-bottom: 10px;}
+.footer-title p {font-size: 90%; margin-bottom: 10px; color: #fff}
 
 footer ul li {width: 15%;padding-top: 10px; padding-right: 20px; font-size: 90%; float: left; list-style: none;}
 
 footer ul li:hover {font-weight: 400}
-.adresa {
-    margin-bottom: 30px;
-}
-.adresa p{
-    margin: 0;
-    padding: 2px;font-size: 80%;
-}
+.adresa {margin-bottom: 30px;}
+.adresa p{margin: 0; padding: 2px;font-size: 80%; color: beige}
 .terms a {color:aliceblue; font-size: 90%; text-decoration: none; padding-bottom: 5px;}
 
-
-
-/*  ----------------------------  
-/*         Social Header          */
-/* ----------------------------   */
+/*  ----------------------------  */  
+/*  INDEX S61 Social Header       */
+/*  ----------------------------  */
 
 .social-header {width: 25%;  float: right;}
 .social-header a{ padding: 5px 0 5px 0px; text-decoration: none; display: inline-block; float: right; padding-left: 40px; vertical-align: middle; font-size: 130%; color: aliceblue}
@@ -379,35 +354,511 @@ footer ul li:hover {font-weight: 400}
 .sh-i {color: #8a3ab9;} */
 
 .footer-bottom {margin-left: 250px; margin-right: 250px; color: aliceblue;}
-.footer-bottom hr {
-    margin-top: 20px;
+.footer-bottom hr {margin-top: 20px;}
+
+.footer-bottom p {width: 25%;font-size: 70%;color: beige;padding-bottom: 20px; text-align: justify; }
+
+/*  ----------------------------  */
+/*  INDEX END                     */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE: COVID-19                */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  COVID-19 S1 TOP               */
+/*  ----------------------------  */
+
+.header-video {height: 800px; overflow: hidden;}
+#myVideo {min-width: 100%;}
+
+.section-top .content {position:relative; top: -800px; left: 50px; width: 30%;height: 200px; margin-top: 100px; margin-left: 50px; margin-bottom: 100px; padding: 20px; color: #f1f1f1; line-height: 120%;}
+
+.section-top h3 {padding-top: 20px;color: #fd297a;font-weight: 400;}
+.section-top p {width: 300px; line-height: 160%;}
+
+/*  ----------------------------  */
+/*  COVID-19 S2 TOPSTAT           */
+/*  ----------------------------  */
+
+.topstat {margin: 100px;height: 300px;}
+.topstat h3 {font-weight: 500;color: #236d9d}
+.topstat hr {border-color: #d9e9f7; margin-bottom: 20px;}
+
+.topstat-data {margin-bottom: 20px;font-size: 90%;color: #969696;font-weight: 400;}
+.topstat-data span {font-weight: 500;color: #236d9d;}
+
+.topstat-data-box {display: flex;justify-content: space-between;}
+
+.stat-box {width: 300px;height: 200px; background-color: #080808;}
+.stat-box h1 {font-weight: 500;text-align: center;padding-top: 40px;}
+.stat-box h5 {font-weight: 500;color: azure;text-align: center;margin: 0px;padding: 5px;}
+.stat-box p {font-weight: 500;font-size: 70%;color: #fff;text-align: center;padding: 0px;margin: 0px;}
+
+.stat-box-top {width: 100%;height: 65px;background: red;}
+
+/*  ----------------------------  */
+/*  COVID-19 S3 SIMPTOMI          */
+/*  ----------------------------  */
+
+.section-simptomi{ margin: 100px; height: 680px; background-color:#fff; clear: both;}
+
+.section-simptomi  .text {display: block; height: 600px; padding: 200px 0px 0px 200px;font-weight: 500; color: #2980b9;}
+
+.section-simptomi h3 {font-weight: 500; color: #2980b9;}
+.section-simptomi li {padding-bottom: 10px; list-style-type: none;}
+.section-simptomi a {text-decoration: none;cursor: pointer;color: #2980b9;}
+.section-simptomi img {width: 100%; height: auto;}
+
+/*  ----------------------------  */
+/*  COVID-19 S4 COVID-19-NEWS     */
+/*  ----------------------------  */
+
+.section-covid-19-news{ max-width: auto; height: 600px; background-color:#236d9d;clear: both;}
+
+hr {margin-bottom: 40px;}
+
+.section-covid-19-news  .text {display: inline; height: 650px; padding: 50px 20px 20px 50px;font-weight: 500; color: #e1e2e3;}
+
+.section-covid-19-news h5 {font-weight: 500; color: aliceblue;}
+.section-covid-19-news li {padding-bottom: 10px; list-style-type:inherit }
+.section-covid-19-news a {text-decoration: none;cursor: pointer;color: #2980b9;}
+.section-covid-19-news img {width: 100%; height: auto;}
+.section-covid-19-news li {margin-left: 20px;line-height: 140%;text-align: justify;font-weight: 400;}
+.section-covid-19-news p {margin-bottom: 10px;}
+.section-covid-19-news p:last-child {font-size: 80%;font-weight: 300;}
+
+.section-covid-19-news span {color: #fff; font-weight: 500;}
+
+.section-covid-19-news .s-vijesti {width: 90%; height: 140px; background-color: #1c5c86; margin-bottom: 10px;}
+.section-covid-19-news .s-vijesti-title h5:hover, .section-covid-19-news .s-vijesti-title p:hover  {color: #eaeaea;}
+.s-vijesti img {display: inline; float: left; width: 15%; margin-right: 20px;}
+.s-vijesti-title {width: 75%; float: left; display: block;}
+.section-covid-19-news .s-vijesti-title h5{margin: 0px 10px 10px 0px;padding: 0px;}
+.section-covid-19-news .s-vijesti-title p{margin-bottom: 10px;font-size: 90%;line-height: 145%;color: aliceblue;}
+
+/*  ----------------------------  */
+/*  COVID-19 S5 USTANOVE          */
+/*  ----------------------------  */
+
+.zdravstvene-ustanove {margin: 100px;height: 300px;}
+.zdravstvene-ustanove h3 {font-weight: 500;color: #236d9d}
+.zdravstvene-ustanove hr {border-color: #d9e9f7; margin-bottom: 20px;}
+
+.zdravstvene-ustanove-data {margin-bottom: 20px;font-size: 90%;color: #969696;font-weight: 400;}
+.zdravstvene-ustanove-data span {font-weight: 500;color: #236d9d;}
+.zdravstvene-ustanove-data-box {display: flex;justify-content: space-between;}
+.zdravstvene-ustanove-data-box a {margin-top: 20px; color: #e0e4e6;font-size: 250%;text-decoration: none;}
+.zdravstvene-ustanove-data-box a:hover {color: #fafafa;font-weight: 400;}
+.zdravstvene-ustanove-data-box i {margin: 30px 10px 10px; 0px;font-size: 80%;color: #7b7e7e;} 
+.zdravstvene-ustanove-data-box i:hover {color: #fcfeff;}
+
+.zdravstvene-ustanove-top-box {width: 300px;height: 200px; background-color: #080808;}
+.zdravstvene-ustanove-top-box h1 {font-weight: 500;text-align: center;padding-top: 40px;}
+.zdravstvene-ustanove-top-box h5 {font-weight: 400;color: #ef31ad;text-align: center;margin: 0px;padding: 0px;}
+.zdravstvene-ustanove-top-box p {font-weight: 500;font-size: 70%;color: #fff;text-align: center;padding: 0px;margin: 0px;}
+
+.zdravstvene-ustanove-box {width: 100%;height: 65px; margin-top: 10px; background: #222222;}
+
+/*  ----------------------------  */
+/*  COVID-19 S6 BOTTOM BOX        */
+/*  ----------------------------  */
+
+.covid-19-bottom-box {background:rgb(66, 94, 255)}
+.covid-19-bottom-box .box100 div {width: 25%;display: inline;float: left;}
+.covid-19-bottom-box h5 {color: aliceblue;font-size: 150%;font-weight: 400; text-align: center;padding-top: 200px;}
+.covid-19-bottom-box p {color: aliceblue;font-size: 120%;font-weight: 400; text-align: center;padding-top: 20px;}
+
+
+.covid-19-bottom-box img {width: 100%;}
+
+/*  ----------------------------  */
+/*  PAGE END: COVID-19            */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE START: O NAMA            */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  O-NAMA S1 O-NAMA TOP          */
+/*  ----------------------------  */
+
+.onama-top {height: 600px; overflow:hidden;}
+.onama-top img{width: 100%;height: auto;background-position: center;}
+
+.onama-topbox {position:relative; top: -890px; left: 100px; width: 500px;height: 200px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; padding: 20px; background-color: #fdfdfd;color: #f1f1f1;}
+.onama-topbox h1, .onama-topbox p {color: #434343;}
+.onama-topbox h1 span {font-weight: 400;color: #de1699;}
+
+/*  ----------------------------  */
+/*  O-NAMA S2 ONAMA UKRATKO       */
+/*  ----------------------------  */
+
+.ukratko {width: 600px; height: 400px; margin: 100px 200px 0px 200px;}
+.ukratko p {color: #434343;text-align:justify;line-height: 150%;}
+
+/*  ----------------------------  */
+/*  O-NAMA S3 HEALT-SYS           */
+/*  ----------------------------  */
+
+.healt-sys {height: 500px; clear: both;}
+
+.vl {border-left: 1px solid #c7c7c7; height: 400px;}
+
+.healt-sys-containter {margin: 100px 300px 100px 300px; height: 500px;}
+.healt-sys-containter hr {border-color: #d9e9f7; margin-bottom: 20px;}
+
+.healt-sys-containter-box {display: flex;justify-content: space-between;}
+
+.healt-sys-containter-box-wrapper {width: 300px;height: 200px;}
+.healt-sys-containter-box-wrapper h1 {font-size: 800%; color: #ef31ad;font-family: "Roboto-slab"; font-weight: 500;#236d9d;text-align: center;padding-top: 40px;}
+.healt-sys-containter-box-wrapper h4 {height: 50px; font-weight: 400;color: #4e4e4e;text-align: center;}
+.healt-sys-containter-box-wrapper h5 {font-weight: 300;color: #272727;text-align: center;}
+
+.healt-sys-containter-box-wrapper p {font-weight: 500;font-size: 70%;color: #fff;text-align: center;padding: 0px;margin: 0px;}
+
+/*  ------------------------------  */
+/*  O-NAMA S4 ACTIVITY DESCRIPTION  */
+/*  ------------------------------  */
+
+.act-desc {height: 1400px; clear: both;}
+
+.act-desc-containter {margin: 100px 300px 100px 300px; height: 800px;}
+
+.act-desc-containter img {width: 100%; height: 500px;margin-top: 100px;}
+.act-desc-containter h1 { position:relative; top: -100px; height: 100px; margin: 0px 200px 0px 200px; font-size: 400%; color: #ef31ad;  background-color: #fdfdfd;font-family: "Roboto-slab"; font-weight: 500;text-align: center;padding-top: 40px;}
+
+.act-desc-containter-box {display: flex;justify-content: space-between;}
+
+.act-desc-containter-box-wrapper {width: 350px;height: 400px;}
+
+.act-desc-containter-box-wrapper h4 {font-family: "Roboto-slab"; font-size: 300%;  font-weight: 400;color: #4e4e4e;text-align: center;}
+.act-desc-containter-box-wrapper h5 {font-weight: 300;color: #272727;text-align: center;}
+
+.act-desc-containter-box-wrapper li {margin-bottom: 10px; line-height: 170%; font-weight: 300;font-size: 100%;color: #1c1c1c; text-align: justify; list-style:none}
+
+/*  ------------------------------  */
+/*  O-NAMA S5 SECTOR DESCRIPTION  */
+/*  ------------------------------  */
+
+.sec-desc {height: 600px; clear: both;}
+
+.sec-desc-containter {margin: 50px 50px 50px 50px; height: 500px;}
+
+.sec-desc-containter img {width: 100%; height: 500px;margin-top: 100px;}
+.sec-desc-containter h1 { position:relative; top: -100px; height: 100px; margin: 0px 200px 0px 200px; font-size: 400%; color: #ef31ad;  background-color: #fdfdfd;font-family: "Roboto-slab"; font-weight: 500;text-align: center;padding-top: 40px;}
+
+.sec-desc-containter-box {display: flex;justify-content: space-between;}
+
+.sec-desc-containter-box-wrapper {width: 400px;height: 400px;}
+
+
+.sec-desc-containter-box-wrapper .img-bx1 {height: 280px;overflow: hidden;}
+
+.sec-desc-containter-box-wrapper a {font-weight: 500;color: #fff;text-decoration: none; cursor: pointer}
+.sec-desc-containter-box-wrapper a:hover {color:  #de1699;}
+
+.sec-desc-containter-box-wrapper img {width: 100%;height: auto;}
+
+.sec-desc-containter-box-wrapper h4 {height: 90px; font-family: "Roboto-slab"; font-size: 200%;  font-weight: 400;color: #4e4e4e;text-align: center;}
+
+.sec-desc-containter-box-wrapper p {height: 110px; font-family: "Roboto"; font-size: 90%;  font-weight: 400;line-height: 170%;  color: #4e4e4e;text-align:justify;}
+
+.sec-desc-containter-box-wrapper a {margin-bottom: 10px; line-height: 170%; font-weight: 300;font-size: 100%;color: #1c1c1c; text-align: justify; list-style:none}
+
+/*  ------------------------------  */
+/*  O-NAMA S6 ABOUT-BOTTOM          */
+/*  ------------------------------  */
+
+.about-bottom {width: 50%; height: 300px;  margin: 0px; clear: both;}
+
+.about-bottom-container {margin: 100px 50px 100px 50px; }
+
+.about-bottom-containter-box-wrapper .box25 {display: inline;float: right;height: 300px;}
+.about-bottom-containter-box-wrapper a{display: block;}
+.about-bottom-containter-box-wrapper h3 {position:relative; top: -140px; height: 50px;  color: #2c2c2c;  background-color: rgba(253, 253, 253, 0.8); font-weight: 500;text-align: center; padding: 0px;}
+.about-bottom-containter-box-wrapper h4 {margin: 0px 0px 20px; 0px;padding: 0px;text-align: left; color: red;}
+.about-bottom-containter-box-wrapper p { color: #2c2c2c;}
+.about-bottom-containter-box-wrapper a {text-decoration: none;}
+.about-bottom-containter-box-wrapper i {padding: 10px 10px 5px 0px;}
+
+/*  ----------------------------  */
+/*  PAGE END: O NAMA              */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE START: NEWSROOM          */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  NEWSROOM S1 NR-TOP            */
+/*  ----------------------------  */
+
+.nr-top {height: 600px; overflow:hidden;}
+.nr-top img{width: 100%; }
+
+.nr-top-topbox {position:relative; top: -700px; left: 100px; width: 500px;height: 200px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; padding: 20px; background-color: #fdfdfd;color: #f1f1f1;}
+
+.nr-top-topbox h1, .nr-top-topbox p {color: #434343;}
+.nr-top-topbox h1 span {font-weight: 400;color: #de1699;}
+
+/*  ----------------------------  */
+/*  NEWSROOM S2 LATEST NEWS        */
+/*  ----------------------------  */
+
+.lat-news {height: 700px;margin: 50px 50px 50px 200px;background-color: #fff;}
+
+.lat-news .box75 {padding: 50px 50px 50px 50px;}
+
+.lat-news .box25 {margin-left: 50px; padding-top: 50px; width: 20%;}
+
+.lat-news-box-top {height: 400px;overflow: hidden;}
+
+.lat-news img {width: 100%;height: auto;}
+
+.lat-news-box-bot {height: 200px;}
+.lat-news-box-bot h6 {margin: 20px 0px 10px 0px;}
+.lat-news-box-bot a {color: #2980b9;font-weight: 500;text-decoration: none;margin-bottom: 20px;}
+.lat-news-box-bot p{margin-top: 20px;width: 75%;}
+
+/*  ----------------------------  */
+/*  NEWSROOM S3 ALL NEWS          */
+/*  ----------------------------  */
+
+.all-news {height: 1200px;margin: 50px 200px 50px 200px; padding: 20px; background-color: #fff;}
+
+.all-news .box75 {padding: 50px 50px 50px 50px;}
+
+.lat-news-box-top {height: 400px;overflow: hidden;}
+
+.lat-news img {width: 100%;height: auto;}
+
+.lat-news-box-bot {height: 200px;}
+.lat-news-box-bot h6 {margin: 20px 0px 10px 0px;}
+.lat-news-box-bot a {color: #2980b9;font-weight: 500;text-decoration: none;margin-bottom: 20px;}
+.lat-news-box-bot p{margin-top: 20px;width: 75%; color: #1c1c1c}
+
+.all-news-container-wrapper {display: flex;justify-content: space-between;}
+.all-news-container-wrapper img {width: 100%; height: auto;}
+
+.all-news-container-wrapper .box33 {width: 30%; height: 500px;float: left;}
+.all-news-container-wrapper a {text-decoration: none;}
+
+.all-news-container-wrapper .box33 h5 {padding: 20px 0px 20px 0px;font-size: 90%;font-weight: 500;}
+.all-news-container-wrapper .box33 h5 span {font-weight: 500;color:#d90688}
+
+/*  ----------------------------  */
+/*  PAGE END: NEWSROOM            */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE START: NEWS              */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  NEWS S1 NEWS-COVER            */
+/*  ----------------------------  */
+
+.news {}
+.news .box50 {height: 500px;}
+.news img{width: 100%; height: auto; }
+
+.news-top-tit {width: 100%;height: auto; padding: 200px; background-color: #3e3e3e;}
+.news-top-tit h1, .news-top-tit p {color: #fff;}
+.news-top-tit .h1-2 {margin-top: -10px; font-weight: 400;color: #de1699;}
+
+/*  ----------------------------  */
+/*  NEWS S3 NEWS HEADER           */
+/*  ----------------------------  */
+
+.news-hed {width: 100%; height: 50px; clear: both}
+
+.author {width: 300px;margin: 0px;padding: 0px;margin-left: 200px;padding-top: 15px;}
+
+.news-hed .author p {color: #3e3e3e;font-weight: 400;}
+.news-hed .author span {font-weight: 500;}
+
+.news-hed-soc { float: left; padding-top: 15px;}
+.news-hed-soc a{ padding: 0px 0 5px 0px; text-decoration: none; display: inline-block; float: right; padding-left: 40px; vertical-align: middle; font-size: 130%; color: #3e3e3e}
+
+.sh-text {color: #fff;}
+
+/*  ----------------------------  */
+/*  NEWS S2 LATEST NEWS           */
+/*  ----------------------------  */
+
+.news-container {height: auto;margin: 50px 50px 50px 200px;}
+.news-container.box75 {padding: 50px 50px 50px 50px;}
+.news-container .box25 {margin-left: 50px; padding-top: 50px; width: 20%;}
+
+.news-container-box {margin-right: 300px;}
+.news-container-box .pg-n1 {color: #000;font-size: 110%;line-height: 160%;font-weight: 300;padding-bottom: 20px;}
+.news-container-box .pg-n2 {color: #000;line-height: 160%;font-weight: 300;padding-bottom: 20px;}
+
+.lat-news-box-top {height: 400px;overflow: hidden;}
+
+.lat-news img {width: 100%;height: auto;}
+
+.lat-news-box-bot {height: 200px;}
+.lat-news-box-bot h6 {margin: 20px 0px 10px 0px;}
+.lat-news-box-bot a {color: #2980b9;font-weight: 500;text-decoration: none;margin-bottom: 20px;}
+.lat-news-box-bot p{margin-top: 20px;width: 75%;}
+
+/*  ----------------------------  */
+/*  PAGE END: NEWS                */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE START: EPIDEMIOLOGIJA    */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  EPIDEMIOLOGIJA S1 COVER       */
+/*  ----------------------------  */
+
+.epi {}
+.epi .box50 {height: 500px;}
+.epi img{width: 100%; height: auto; }
+
+.epi-top-tit {width: 100%;height: auto; padding: 200px; background-color: #3e3e3e;}
+.epi-top-tit h1, .epi-top-tit p {color: #fff;}
+.epi-top-tit .h1-2 {margin-top: 10px; font-size: 200%; font-weight: 400;color: #de1699;}
+
+.epi-top-tit h3 {
+    font-size: 150%;
+    font-weight: 400;
+    color: #fff;
 }
-.footer-bottom p {
-    width: 25%;
-    font-size: 80%;
-    color: beige;
-    padding-bottom: 
-        20px;
+.epi-top-tit h3 span {font-weight: 500; color: #de1699;}
+
+.epi-top-tit a {font-weight: 500;color: #fff;text-decoration: none; cursor: pointer}
+.epi-top-tit a:hover {
+    color:  #de1699;
 }
-/*  ----------------------------  */
-/*         INDEX END              */
-/*  ----------------------------  */
 
 /*  ----------------------------  */
-/*        COVID-19                */
+/*  EPIDEMIOLOGIJA S2 EPI         */
+/*  ----------------------------  */
+
+.epi-container {height: auto;margin: 50px 50px 50px 200px;}
+.epi-container .box75 {padding: 50px 50px 50px 50px;}
+.epi-container .box25 {margin-left: 50px; padding-top: 50px; width: 20%;}
+
+.epi-container-box .pg-n1 {color: #000;font-size: 110%;line-height: 160%;font-weight: 300;padding-bottom: 20px;}
+
+.epi-container-box li  {color: #000;font-size: 110%;line-height: 160%;font-weight: 300;padding-bottom: 20px; list-style:square; margin-left: 15px; padding-left: 10px;}
+
+/*  ----------------------------  */
+/*  PAGE END: EPIDEMIOLOGIJA      */
 /*  ----------------------------  */
 
 /*  ----------------------------  */
-/*      SECTION 1 NOW             */
+/*  PAGE START: MIKROBIOLOGIJA    */
 /*  ----------------------------  */
 
-.content-covid-19 {position:relative; top: -800px; left: 100px; width: 30%;height: 200px; margin-top: 100px; margin-left: 200px; margin-bottom: 100px; padding: 20px; background: rgba(35, 164, 175, 0.72);color: #f1f1f1;}
-.content a {text-decoration: none; }
-
-.content-covid-19 span {color: aliceblue;font-weight: 400;}
-.content-covid-19 span:hover {color: #272829; padding-right: 20px;} 
-.content-covid-19 i {padding-top: 7px; color: #d4d4d4; font-size: 80%;}
+/*  ----------------------------  */
+/*  PAGE END: MIKROBIOLOGIJA      */
+/*  ----------------------------  */
 
 
+/*  ----------------------------  */
+/*  PAGE START: ŽIVOTNA SREDINA   */
+/*  ----------------------------  */
 
+/*  ----------------------------  */
+/*  ŽIVOTNA SREDINA S1 COVER      */
+/*  ----------------------------  */
+
+.epi {}
+.epi .box50 {height: 500px;}
+.epi img{max-width: 100%; min-height:100% }
+
+/*  ----------------------------  */
+/*  PAGE END: ŽIVOTNA SREDINA   */
+/*  ----------------------------  */
+
+
+/*  ----------------------------  */
+/*  PAGE START: PROMOCIJA         */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/* PROMOCIJA S1 COVER             */
+/*  ----------------------------  */
+
+.epi {}
+.epi .box50 {height: 500px;}
+.epi img{max-width: 100%; min-height:100% }
+
+
+/*  ----------------------------  */
+/*  PAGE END: NEWS                */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PAGE START: PODACI   */
+/*  ----------------------------  */
+
+/*  ----------------------------  */
+/*  PODACI S1 COVER               */
+/*  ----------------------------  */
+
+.dat {}
+.dat .box50 {height: 500px;}
+.dat img{width: 100%; height: auto; }
+
+.dat-top-tit {width: 100%;height: 500px; padding: 150px 150px 0px 50px; background-color: #2860ba;}
+.dat-top-tit h1, .dat-top-tit p {color: #fff;}
+.dat-top-tit .h1-3 {margin-top: 50px; font-size: 150%; font-weight: 400;color: #fffeff;}
+
+.dat-top-tit h3 {font-size: 150%;font-weight: 400; line-height: 170%; color: #fff;}
+.dat-top-tit h3 span {font-weight: 500; color: #de1699;}
+
+.dat-top-tit a {font-weight: 500;color: #fff;text-decoration: none; cursor: pointer}
+.dat-top-tit a:hover {
+    color:  #de1699;
+}
+
+/*  ----------------------------  */
+/*  PODACI S2 KATEGORIJE          */
+/*  ----------------------------  */
+
+.kat-desc {height: 700px; clear: both;}
+
+.kat-desc-containter {margin: 50px 50px 50px 50px; height: 500px;}
+
+.kat-desc-containter img {width: 100%; height: 500px;margin-top: 100px;}
+.kat-desc-containter h1 { position:relative; top: -100px; height: 100px; margin: 0px 200px 0px 200px; font-size: 400%; color: #ef31ad;  background-color: #fdfdfd;font-family: "Roboto-slab"; font-weight: 500;text-align: center;padding-top: 40px;}
+
+.kat-desc-containter-box {display: flex;justify-content: space-between;}
+
+
+.kat-box {position: relative; top: -170px; padding: 10px;
+background-image: linear-gradient(to bottom, rgba(127, 111, 163, 0.76) , rgb(203, 163, 248));
+}
+
+.kat-desc-containter-box-wrapper {width: 400px;}
+
+
+.kat-desc-containter-box-wrapper .img-bx1 {height: 500px;overflow: hidden; }
+
+.kat-desc-containter-box-wrapper a {font-weight: 500;color: #fff;text-decoration: none; cursor: pointer}
+.kat-desc-containter-box-wrapper a:hover {color:  #de1699;}
+
+.kat-desc-containter-box-wrapper img {width: 100%;height: auto;}
+
+.kat-desc-containter-box-wrapper h4 {height: 50px; margin: 0px 0px 10px; 0px; padding: 0px; font-family: "Roboto"; font-size: 200%; font-weight: 400;color: #fff;text-align: center;}
+
+.kat-desc-containter-box-wrapper p {height: 80px; font-family: "Roboto"; font-size: 90%;  font-weight: 400;line-height: 170%;  color: #fff;text-align:center;}
+
+.kat-desc-containter-box-wrapper a {list-style:none; margin-bottom: 10px; font-weight: 400;font-size: 100%;color: #fff;  justify-content: center;
+    align-items: center;}
+
+
+
+/*  ----------------------------  */
+/*  PAGE END: PODACI              */
+/*  ----------------------------  */
 

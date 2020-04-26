@@ -1,9 +1,24 @@
 /* ----------------------------   */
+/*    From 1366 to 1600 px         */
+/* ----------------------------   */
+
+@media only screen and (max-width: 1600px) {
+
+    .content-covid-19 {position:relative; top: -600px; left: 100px; width: 30%;height: 200px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; padding: 20px; }  
+}
+
+
+
+/* ----------------------------   */
 /*    From 1280 to1366 px         */
 /* ----------------------------   */
 
 @media only screen and (max-width: 1366px) {
 
+    .content-covid-19 {position:relative; top: -500px; }  
+    .section-top_stories  .box25 { height: 360px; }
+    .section-top_stories .box-1, .section-top_stories .box-3 { background: #fff; padding: 150px 20px 10px 40px;}
+    
     .social-header a{padding-right: 25px;}    
 }
 

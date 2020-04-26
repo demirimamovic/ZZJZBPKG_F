@@ -16,13 +16,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/snnx.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/ionicons.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,500 |Roboto:100,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/snnx.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,500|Roboto:100,300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/517eaa895f.js" crossorigin="anonymous"></script>
@@ -40,7 +40,7 @@
                     </a>
                     <button id="login-btn" name="login" class="btn-log" type="submit" value="username"><i class="fa fa-user-o" aria-hidden="true"></i></button>
 
-                    <img src="resources/image/grb_bpk_gorazde.jpg" alt="logo" class="logo">
+                    <img src="../../resources/image/grb_bpk_gorazde.jpg" alt="logo" class="logo">
                     <div class="header-title">
                         <p class="header-tit-tit">Zavod za javno zdravstvo</p>
                         <p class="header-tit-subtit">Bosansko-podrinjskog kantona Goražde</p>
@@ -62,9 +62,9 @@
                         <ul class="main_navigation_banner" role="banner">
                             <li><a href="#"><span onclick="openNav_1()">Zdravstvene oblasti</span></a></li>
                             <li><a href="#"><span onclick="openNav_2()">Vijesti</span></a></li>
-                            <li><a href="#"><span onclick="openNav_3()">U fokusu</span></a></li>
-                            <li><a href="pages/podaci/podaci.html"><span onclick="openNav_4()">Podaci</span></a></li>
-                            <li><a href="pages/o_nama/o-nama.html"><span>O nama</span></a></li>
+                            <li><a href="#"><span onclick="openNav_3()">Urgentno</span></a></li>
+                            <li><a href=".."><span onclick="openNav_4()">Podaci</span></a></li>
+                            <li><a href="pages/blog.php"><span onclick="openNav_4()">O nama</span></a></li>
                         </ul>
                         <div id="myNav_1" class="overlay">
                             <div class="navigation_container">
@@ -79,16 +79,16 @@
                                         <div>
                                             <p class="p-subnav">Saznaj više</p>
                                         </div>
-                                        <li><a href="pages/zdravstvene-oblasti/epidemiologija.html" id="nc_l-1-1">Epidemiologija</a></li>
-                                        <li><a href="pages/zdravstvene-oblasti/mikrobiologija.html" id="nc_l-1-2">Mikrobiologija</a></li>
-                                        <li><a href="pages/zdravstvene-oblasti/zdravstvena-okolina.html" id="nc_l-1-3">Životna sredina</a></li>
-                                        <li><a href="pages/zdravstvene-oblasti/promocija-zdravlja.html" id="nc_l-1-4">Socijalna medicina</a></li>
+                                        <li><a href="epidemiologija.html" id="nc_l-1-1">Epidemiologija</a></li>
+                                        <li><a href="#" id="nc_l-1-2">Mikrobiologija</a></li>
+                                        <li><a href="#" id="nc_l-1-3">Životna sredina</a></li>
+                                        <li><a href="#" id="nc_l-1-4">Socijalna medicina</a></li>
                                     </ul>
                                 </div>
                                 <div class="sub_nav-r">
                                     <div id="nc_r-1-1">
                                         <ul>
-                                            <div><a class="title-subnav" href="pages/zdravstvene-oblasti/epidemiologija.html">Epidemiologija</a></div>
+                                            <div><a class="title-subnav" href="pages/about.php">Epidemiologija</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Kratak info</p>
                                             </div>
@@ -97,7 +97,7 @@
                                     </div>
                                     <div id="nc_r-1-2">
                                         <ul>
-                                            <div><a class="title-subnav" href="pages/zdravstvene-oblasti/mikrobiologija.html">Mikrobiologija</a></div>
+                                            <div><a class="title-subnav" href="pages/news.php">Mikrobiologija</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Kratak info</p>
                                             </div>
@@ -107,7 +107,7 @@
                                     </div>
                                     <div id="nc_r-1-3">
                                         <ul>
-                                            <div><a class="title-subnav" href="pages/zdravstvene-oblasti/zdravstvena-okolina.html">Životna sredina</a></div>
+                                            <div><a class="title-subnav" href="#">Životna sredina</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Kratak info</p>
                                             </div>
@@ -116,7 +116,7 @@
                                     </div>
                                     <div id="nc_r-1-4">
                                         <ul>
-                                            <div><a class="title-subnav" href="pages/zdravstvene-oblasti/promocija-zdravlja.html">Socijalna medicina</a></div>
+                                            <div><a class="title-subnav" href="#">Socijalna medicina</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Kratak info</p>
                                             </div>
@@ -134,34 +134,34 @@
                                         <div>
                                             <p class="p-subnav">Saznaj više</p>
                                         </div>
-                                        <li><a href="#" id="nc_l-2-1">Važne vijesti</a></li>
-                                        <li><a href="pages/news/newsroom.html" id="nc_l-2-2">Sve vijesti</a></li>
-                                        <li><a href="#" id="nc_l-2-3">Oglasi</a></li>
-                                        <li><a href="#" id="nc_l-2-4">Javne nabavke</a></li>
+                                        <li><a href="services/analytics.php" id="nc_l-2-1">Važne vijesti</a></li>
+                                        <li><a href="services/public_policy.php" id="nc_l-2-2">Sve vijesti</a></li>
+                                        <li><a href="services/skill_development.php" id="nc_l-2-3">Oglasi</a></li>
+                                        <li><a href="services/business_initiatives.php" id="nc_l-2-4">Javne nabavke</a></li>
                                     </ul>
                                 </div>
                                 <div class="sub_nav-r">
                                     <div id="nc_r-2-1">
                                         <ul>
-                                            <div><a class="title-subnav" href="#">Važne vijesti</a></div>
+                                            <div><a class="title-subnav" href="services/analytics.php">Epidemije</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
-                                            <li><a href="#">Pogledaj važne vijesti</a></li>
+                                            <li><a href="#"></a></li>
                                         </ul>
                                     </div>
                                     <div id="nc_r-2-2">
                                         <ul>
-                                            <div><a class="title-subnav" href="pages/news/newsroom.html">Sve vijesti</a></div>
+                                            <div><a class="title-subnav" href="services/public_policy.php">Vakcinacije</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
-                                            <li><a href="pages/news/newsroom.html">Pogledaj sve vijesti</a></li>
+                                            <li><a href="#"></a></li>
                                         </ul>
                                     </div>
                                     <div id="nc_r-2-3">
                                         <ul>
-                                            <div><a class="title-subnav" href="#">Oglasi</a></div>
+                                            <div><a class="title-subnav" href="services/skill_development.php">Razvoj vještina</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
@@ -170,7 +170,7 @@
                                     </div>
                                     <div id="nc_r-2-4">
                                         <ul>
-                                            <div><a class="title-subnav" href="#">Javne nabavke</a></div>
+                                            <div><a class="title-subnav" href="services/business_initiatives.php">Poslovni konsalting</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
@@ -188,16 +188,16 @@
                                         <div>
                                             <p class="p-subnav">Saznaj više</p>
                                         </div>
-                                        <li><a href="pages/u_fokusu/covid-19.html" id="nc_l-3-1">COVID-19</a></li>
-                                        <li><a href="#" id="nc_l-3-2"></a></li>
-                                        <li><a href="#" id="nc_l-3-3"></a></li>
-                                        <li><a href="" id="nc_l-3-4"></a></li>
+                                        <li><a href="#" id="nc_l-3-1">COVID-19</a></li>
+                                        <li><a href="#" id="nc_l-3-2">Epidemije</a></li>
+                                        <li><a href="#" id="nc_l-3-3">Imunizacija</a></li>
+                                        <li><a href="" id="nc_l-3-4">Preventivne akcije</a></li>
                                     </ul>
                                 </div>
                                 <div class="sub_nav-r">
                                     <div id="nc_r-3-1">
                                         <ul>
-                                            <div><a class="title-subnav" href="services/traditional_industries.php">COVID-19</a></div>
+                                            <div><a class="title-subnav" href="#">COVID-19</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
@@ -206,16 +206,24 @@
                                     </div>
                                     <div id="nc_r-3-2">
                                         <ul>
-                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div><a class="title-subnav" href="#">Epidemije</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
-                                            
                                         </ul>
                                     </div>
                                     <div id="nc_r-3-3">
                                         <ul>
-                                            <div><a class="title-subnav" href="#"></a></div>
+                                            <div><a class="title-subnav" href="#">Imunizacija</a></div>
+                                            <div>
+                                                <p class="p-subnav-right">Brzi link</p>
+                                            </div>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="nc_r-3-4">
+                                        <ul>
+                                            <div><a class="title-subnav" href="#">Preventivne akcije</a></div>
                                             <div>
                                                 <p class="p-subnav-right">Brzi link</p>
                                             </div>
@@ -235,16 +243,17 @@
                         <div>
                             <div class="row">
                                 <div class="box75">
+                                    <li><a href="../../index.html">Zavod za javno zdravstvo</a></li>
                                     <li><a href="#link">Zdravstvene oblasti</a></li>
                                 </div>
                                 <div class="box25-m1"><i class="ion-minus-round"></i></div>
                             </div>
                             <div class="row-m1">
                                 <ul class="sub-menu">
-                                    <li><a href="pages/zdravstvene-oblasti/epidemiologija.html">Epidemiologija</a></li>
-                                    <li><a href="pages/zdravstvene-oblasti/mikrobiologija.html">Mikrobiologija</a></li>
-                                    <li><a href="pages/zdravstvene-oblasti/zdravstvena-okolina.html">Životna sredina</a></li>
-                                    <li><a href="pages/zdravstvene-oblasti/promocija-zdravlja.html">Socijalna medicina</a></li>
+                                    <li><a href="epidemiologija.html">Epidemiologija</a></li>
+                                    <li><a href="#">Mikrobiologija</a></li>
+                                    <li><a href="#">Životna sredina</a></li>
+                                    <li><a href="#">Socijalna medicina</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -258,7 +267,7 @@
                             <div class="row-m2">
                                 <ul class="sub-menu">
                                     <li><a href="#">Važne vijesti</a></li>
-                                    <li><a href="pages/news/newsroom.html">Sve vijesti</a></li>
+                                    <li><a href="#">Sve vijesti</a></li>
                                     <li><a href="#">Oglasi</a></li>
                                     <li><a href="#">Javne nabavke</a></li>
                                 </ul>
@@ -267,114 +276,114 @@
                         <div>
                             <div class="row">
                                 <div class="box75">
-                                    <li><a href="#link">U fokusu</a></li>
+                                    <li><a href="#link">Urgentno</a></li>
                                 </div>
                                 <div class="box25-m3"><i class="ion-minus-round"></i></div>
                             </div>
                             <div class="row-m3">
                                 <ul class="sub-menu">
-                                    <li><a href="pages/u_fokusu/covid-19.html">COVID-19</a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
+                                    <li><a href="#">COVID-19</a></li>
+                                    <li><a href="#">Epidemije</a></li>
+                                    <li><a href="#">Imunizacija</a></li>
+                                    <li><a href="#">Preventivne akcije</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="row">
                             <div class="box75">
-                                <li><a href="#">Podaci</a></li>
+                                <li><a href="pages/careers.php">Podaci</a></li>
                             </div>
                             <div class="box25-4"></div>
                         </div>
                         <div class="row">
                             <div class="box75">
-                                <li><a href="pages/o_nama/o-nama.html">O nama</a></li>
+                                <li><a href="pages/blog.php">O nama</a></li>
                             </div>
                             <div class="box25-4"></div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </nav>
     </header>
-    <section class="now">
+    <section class="epi">
         <div class="row">
-            <div class="box100">
-                <div class=""><img src="resources/image/sars-cov-2-black.jpg" alt="cover"></div>
+            <div class=" box50 ">
+                <div class="epi-top-tit">
+                    <h1>Služba za epidemiologiju</h1>
+                    <h1 class="h1-2">VAŽNO</h1>
+                    <h3 class="h1-3">U BPK Goražde je proglašena epidemija bolesti <span>COVID-19</span></h3>
+                    <a href="../../pages/covid-19.html">Saznaj više</a>
+                </div>
             </div>
-            <div class="content-covid-19">
-                <h1>COVID-19</h1>
-                <p>Zavod za javno zdravstvo Bosansko-podrinjskog kantona Goražde</p>
-                <div class="arrow-div"><a class="link-arrow" href="pages/u_fokusu/covid-19.html"><span>Saznaj više</span></a><i class="fas fa-arrow-right"></i></div>
+            <div class="box50">
+                <img src="epidemiologija.jpg" alt="cover">
             </div>
         </div>
     </section>
-    <section class="section-top_stories">
+    <section class="epi-container">
         <div class="row">
-            <div class="box25 box-1">
-                <p>28. februar 2020</p>
-                <h3>COVID-19: Obavezno nosenje maski za lice</h3>
-                <div class="arrow-div"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i><a class="link-arrow" href="#"><span></span></a></div>
+            <div class="box75">
+                <div class="epi-container-box">
+                    <p class="pg-n1">Zavod kontiuirano provodi epidemiološku djelatnost kroz mjere higijensko - epidemiološke zaštite s epidemiološkom analizom stanja na području Bosansko-podrinjskog kantona Goražde i po potrebi provodi protuepidemijske mjere te nadzire provođenje obveznih imunizacija u skladu sa nadležnostima iz Zakona o zdravstvenoj zaštiti Federacije BiH.
+                    </p>
+                    <p class="pg-n1">U skladu sa Zakonom, u oblasti epidemiologije Zavod obavlja slijedeće poslove :
+                    </p>
+                        <ul>
+                            <li>vrši epidemiološko praćenje kretanja zaraznih bolesti na kantonu i vrši monitoring rizika značajnih za zdravlje populacije,</li>
+                            <li>kontinuirano provodi preventivne mjere zdravstvene zaštite i nadzora nad kretanjem zaraznih bolesti,</li>
+                            <li>vrši analizu rizika po zdravlje stanovništva i provodi protivepidemijske mjere,</li>
+                            <li>planira i nadzire provođenje Programa obaveznih imunizacija,vrši raspodjelu vakcina iz obaveznog programa prema zdravstvenim ustanovama primarnog i tercijarnog nivoa, prati realizaciju i vrši evaluaciju Programa,</li>
+                            <li>planira, predlaže i provodi mjere za sprečavanje i rano otkrivanje i suzbijanje oboljenja,</li>
+                            <li>kontinuirano provodi mjere higijensko-epidemiološke zaštite i nadzora sa epidemiološkom analizom stanja na području kantona i provodi protivepidemijske mjere,</li>
+                            <li>učestvuje u uzorkovanju materijala na terenu za potrebe analiza i postavljanja dijagnoze zaraznih oboljenja,</li>
+                            <li>nadzire i provodi mjere preventivne i protivepidemijske dezinfekcije, dezinsekcije i deratizacije,</li>
+                            <li>stručno metodološki nadzire i usmjerava rad higijensko epidemioloških službi na području kantona,</li>
+                            <li>vrši zdravstveni nadzor nad kliconošama, zaposlenim i drugim licima u skladu sa propisima o zaštiti stanovništva od zaraznih bolesti,</li>
+                            <li>vrši sanitarne preglede osoba koje podliježu ovom nadzoru,</li>
+                            <li>učestvuje u planiranju, organizovanju i provođenju aktivnosti promocije zdravlja i zdravstvene edukacije stanovništva,</li>
+                            <li>učestvuje u izradi i provođenju pojedinih programa zdravstvene zaštite u vanrednim prilikama,</li>
+                            <li>učestvuje u planiranju, organizovanju i provođenju djelatnosti kontinuirane medicinske edukacije i kontinuiranog profesionalnog razvoja u sektoru zdravstva,</li>
+                            <li>provodi obuku zaposlenih za sticanje osnovnih znanja o higijeni životnih namirnica i predmeta opšte upotrebe kao i ličnoj higijeni lica koji rade u proizvodnji i prometu životnih namirnica,</li>
+                            <li>sarađuje sa drugim zdravstvenim ustanovama na području kantona kao i nadležnim organima lokalne samouprave i drugim ustanovama i organizacijama od značaja za unapređenje javnog zdravlja,</li>
+                            <li>provodi zdravstveno statistička istraživanja u svrhu praćenja, procjene i analize zdravstvenog stanja stanovništva iz domena službe,</li>
+                            <li>priprema promotivni materijal i druge sadržaje za potrebe promocije zdravlja, provodi preventivne aktivnosti kod stanovništva, izvještava javnost i relevantne institucije,</li>
+                            <li>učestvuje u aktivnostima provođenja kontrole kvaliteta,</li>
+                            <li>učestvuje u pripremi raznih oblika publikacija iz djelokruga rada službe,</li>
+                            <li>provodi program postekspozicijske antirabične zaštite za područje kantona,</li>
+                            <li>učestvuje u aktivnostima HIV savjetovališta,</li>
+                            <li>učestvuje u nabavci imunobioloških preparata za prevenciju gripe,bjesnoće kao i ugriza zmija a koji se nabavljaju na teret Zavoda zdravstvenog osiguranja,</li>
+                            <li>učestvuje u organizaciji, sprovođenju, sakupljanju i razvrstavanju medicinskog otpada, skladištenju, provođenju stručnog nadzora, vođenju evidencije, evaluaciji i izvještavanju,</li>
+                        </ul>
+                </div>
             </div>
-            <div class="box25 box-2">
-                <div class="image_box"><img src="pages/news/images/maska3.jpg" alt="slika_1"></div>
-            </div>
-            <div class="box25 box-1">
-                <p>28. februar 2020</p>
-                <h3>COVID-19: Obavezno nosenje maski za lice</h3>
-                 <div class="arrow-div"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i><a class="link-arrow" href="#"><span></span></a></div>
-            </div>
-            <div class="box25 box-4">
-                <div class="image_box"><img src="resources/image/covid-19-2.jpg" alt="slika_1"></div>
-            </div>
-        </div>
-    </section>
-    <section class="section-urgentno">
-        <div class="row">
-            <div class="box50 text">
-                <h3>Pandemija bolesti koronavirusa (COVID-2019)</h3>
-                <li><a href="">Kako da se zaštite</a></li>
-                <li><a href="">Šta da uradite ako ste se razboljeli</a></li>
-            </div>
-
-            <div class="box50 image">
-                <div class="image_box"><img src="resources/image/coronavirus-plakat1.jpg" alt="slika_1"></div>
-            </div>
-        </div>
-    </section>
-    <section class="section-vijesti">
-        <div class="row">
-            <div class="box50 text">
-                <h3>ODGOVOR NA COVID-2019</h3>
+            <div class="box25">
+                <h3>ZADNJE VIJESTI</h3>
                 <hr>
                 <div class="s-vijesti">
-                    <img src="resources/image/covid-19-2.jpg" alt="slika_1">
+
                     <div class="s-vijesti-title">
+                        <img src="images/slika1.jpg" alt="">
                         <p>02. april 2020</p>
                         <a href="">
-                            <h5>Epidemiološka situacija u BPK Goražde stabilna</h5><span>
-                                <p>Epidemiološka situacija na području Bosanskopodrinjskog kantona (BPK) Goražde za sada je stabilna i nema novih slučajeva oboljelih od koronavirusa.</p>
+                            <h5>Zaštitna oprema zdravstvenim ustanovama za borbu protiv COVID-a 19</h5><span>
+                                <p>Federalna uprava civilne zaštite dopremila je danas Kantonalnom štabu civilne zaštite Bosansko-podrinjskog kantona Goražde zaštitnu opremu za borbu protiv COVID-a 19.</p>
                             </span>
                         </a>
-
                     </div>
-
                 </div>
                 <div class="s-vijesti">
-                    <img src="resources/image/covid-19-2.jpg" alt="slika_1">
                     <div class="s-vijesti-title">
+                        <img src="images/slika1.jpg" alt="">
                         <p>02. april 2020</p>
                         <a href="">
                             <h5>Epidemiološka situacija u BPK Goražde stabilna</h5><span>
                                 <p>Epidemiološka situacija na području Bosanskopodrinjskog kantona (BPK) Goražde za sada je stabilna i nema novih slučajeva oboljelih od koronavirusa.</p>
                             </span>
                         </a>
-
                     </div>
-
                 </div>
                 <div class="s-vijesti">
-                    <img src="resources/image/covid-19-2.jpg" alt="slika_1">
                     <div class="s-vijesti-title">
                         <p>02. april 2020</p>
                         <a href="">
@@ -382,42 +391,52 @@
                                 <p>Epidemiološka situacija na području Bosanskopodrinjskog kantona (BPK) Goražde za sada je stabilna i nema novih slučajeva oboljelih od koronavirusa.</p>
                             </span>
                         </a>
-
                     </div>
-
                 </div>
             </div>
-            <div class="box50 text">
-                <h3>VIJESTI</h3>
-                <hr>
-                <li><a href="">Kako da se zaštite</a></li>
-                <li><a href="">Šta da uradite ako ste se razboljeli</a></li>
-            </div>
-
         </div>
     </section>
-    <section class="services-box">
+    <section class="all-news">
         <div class="row">
-            <div class="box100">
-                <h3>Kako vam možemo pomoći?</h3>
-                <p>Mi brinemo o javnom zdravlju na području Bosansko-podrinjskog kantona Goražde. Trebate li našu pomoć?</p>
-            </div>
-            <div class="row">
-                <div class="box50 ">
-                    <div class="service">
-                        <p>Telefon:</p>
-                        <h3>+387(0)38 220060</h3>
+            <div class="all-news-container">
+                <div class="all-news-container-box-top">
+                    <h3>POSLJEDNJE VIJESTI</h3>
+                    <hr>
+                </div>
+                <div class="all-news-container-wrapper">
+                    <div class="box33">
+                        <img src="images/slika1.jpg" alt="">
+                        <h5>17. april 2020 &#124; <span>Epidemija COVID-19</span></h5>
+                        <a href="">
+                            <h5>Zaštitna oprema zdravstvenim ustanovama za borbu protiv COVID-a 19</h5><span>
+                                <p>Federalna uprava civilne zaštite dopremila je danas Kantonalnom štabu civilne zaštite Bosansko-podrinjskog kantona Goražde zaštitnu opremu za borbu protiv COVID-a 19.</p>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="box33">
+                        <img src="images/slika2.jpg" alt="">
+                        <h5>16. april 2020 &#124; <span>Epidemija COVID-19</span></h5>
+                        <a href="">
+                            <h5>Na području BPK nema novih slučajeva koronavirusa</h5><span>
+                                <p>Na području Bosanskopodrinjskog kantona (BPK) Goražde nema novih slučajeva oboljelih od koronavirusa – potvrdila je direktorica kantonalnog Zavoda za javno zdravstvo dr. Medina Bičo.</p>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="box33">
+                        <img src="images/slika1.jpg" alt="">
+                        <h5>02. april 2020 &#124; <span>Epidemija COVID-19</span></h5>
+                        <a href="">
+                            <h5>Epidemiološka situacija u BPK Goražde stabilna</h5><span>
+                                <p>Epidemiološka situacija na području Bosanskopodrinjskog kantona (BPK) Goražde za sada je stabilna i nema novih slučajeva oboljelih od koronavirusa.</p>
+                            </span>
+                        </a>
                     </div>
                 </div>
-                <div class="box50 ">
-                    <div class="service">
-                        MAPA
-                    </div>
-                </div>
             </div>
-
         </div>
     </section>
+
+
     <footer>
         <div class="footer-top">
             <div class="footer-title">
@@ -462,7 +481,7 @@
     </footer>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <script src="../../resources/js/script.js"></script>
 
 </body>
 
